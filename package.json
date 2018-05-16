@@ -21,6 +21,7 @@
     "autoprefixer": "^8.5.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.4"
+    "gulp-clean-css": "^3.9.4",
+    "gulp-imagemin": "^4.1.0"
   }
 }
