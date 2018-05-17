@@ -34,3 +34,9 @@ gulp.task('babel', () =>
  gulp.task('watch', function() {
     gulp.watch('./src/css/*.css', ['css'])
 })
+
+gulp.task('default', ['css', 'image', 'babel'], function(){
+    gulp.watch('./src/css/*.css', ['css'])
+    gulp.watch('./src/images/*', ['image'])
+    gulp.watch('./src/js/*.js', ['babel'])
+})
