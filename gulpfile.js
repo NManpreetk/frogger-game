@@ -30,3 +30,7 @@ gulp.task('babel', () =>
         .pipe(uglify())
          .pipe(gulp.dest('./dist/js'))
  );
+
+ gulp.task('watch', function() {
+    gulp.watch('./src/css/*.css', ['css'])
+})
